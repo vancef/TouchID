@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HexColors.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PPTopMostController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TouchIDDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RMessage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1B44967A82E7D9EBED3FC26349A1A905</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1B71FA3A2AA7E97901DE75DD1897C33F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A7AC71C74B75A5678608F5C76790BC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC7BAA2B0109B633CE06A36E872A9505</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

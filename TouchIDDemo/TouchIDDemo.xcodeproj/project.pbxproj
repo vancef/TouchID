@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075A8F71A1966FFE8D2DCB6B /* libPods-TouchIDDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8F6849122E71990D90383D /* libPods-TouchIDDemo.a */; };
+		6056BE051E6CFC100003DE0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6056BE041E6CFC100003DE0C /* main.m */; };
+		6056BE081E6CFC100003DE0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6056BE071E6CFC100003DE0C /* AppDelegate.m */; };
+		6056BE0B1E6CFC100003DE0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6056BE0A1E6CFC100003DE0C /* ViewController.m */; };
+		6056BE0E1E6CFC100003DE0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6056BE0C1E6CFC100003DE0C /* Main.storyboard */; };
+		6056BE101E6CFC100003DE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6056BE0F1E6CFC100003DE0C /* Assets.xcassets */; };
+		6056BE131E6CFC100003DE0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6056BE111E6CFC100003DE0C /* LaunchScreen.storyboard */; };
+		6056BE1C1E6CFC360003DE0C /* TouchIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6056BE1B1E6CFC360003DE0C /* TouchIDManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006AAE479FEFF89ACD4F1778 /* Pods-TouchIDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchIDDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchIDDemo/Pods-TouchIDDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0AEA5398F6142A27BC2FBA9B /* Pods-TouchIDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchIDDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchIDDemo/Pods-TouchIDDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6056BE001E6CFC100003DE0C /* TouchIDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchIDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6056BE041E6CFC100003DE0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6056BE061E6CFC100003DE0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6056BE071E6CFC100003DE0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6056BE091E6CFC100003DE0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6056BE0A1E6CFC100003DE0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6056BE0D1E6CFC100003DE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6056BE0F1E6CFC100003DE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6056BE121E6CFC100003DE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6056BE141E6CFC100003DE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6056BE1A1E6CFC360003DE0C /* TouchIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDManager.h; sourceTree = "<group>"; };
+		6056BE1B1E6CFC360003DE0C /* TouchIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDManager.m; sourceTree = "<group>"; };
+		CD8F6849122E71990D90383D /* libPods-TouchIDDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchIDDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6056BDFD1E6CFC100003DE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075A8F71A1966FFE8D2DCB6B /* libPods-TouchIDDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6056BDF71E6CFC100003DE0C = {
+			isa = PBXGroup;
+			children = (
+				6056BE1A1E6CFC360003DE0C /* TouchIDManager.h */,
+				6056BE1B1E6CFC360003DE0C /* TouchIDManager.m */,
+				6056BE021E6CFC100003DE0C /* TouchIDDemo */,
+				6056BE011E6CFC100003DE0C /* Products */,
+				DB39D2138BD91AB5544161A1 /* Pods */,
+				7C8498E986F316E4D8AA773A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6056BE011E6CFC100003DE0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6056BE001E6CFC100003DE0C /* TouchIDDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6056BE021E6CFC100003DE0C /* TouchIDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6056BE061E6CFC100003DE0C /* AppDelegate.h */,
+				6056BE071E6CFC100003DE0C /* AppDelegate.m */,
+				6056BE091E6CFC100003DE0C /* ViewController.h */,
+				6056BE0A1E6CFC100003DE0C /* ViewController.m */,
+				6056BE0C1E6CFC100003DE0C /* Main.storyboard */,
+				6056BE0F1E6CFC100003DE0C /* Assets.xcassets */,
+				6056BE111E6CFC100003DE0C /* LaunchScreen.storyboard */,
+				6056BE141E6CFC100003DE0C /* Info.plist */,
+				6056BE031E6CFC100003DE0C /* Supporting Files */,
+			);
+			path = TouchIDDemo;
+			sourceTree = "<group>";
+		};
+		6056BE031E6CFC100003DE0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6056BE041E6CFC100003DE0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C8498E986F316E4D8AA773A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8F6849122E71990D90383D /* libPods-TouchIDDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB39D2138BD91AB5544161A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AEA5398F6142A27BC2FBA9B /* Pods-TouchIDDemo.debug.xcconfig */,
+				006AAE479FEFF89ACD4F1778 /* Pods-TouchIDDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6056BDFF1E6CFC100003DE0C /* TouchIDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6056BE171E6CFC100003DE0C /* Build configuration list for PBXNativeTarget "TouchIDDemo" */;
+			buildPhases = (
+				41B9C964EF56BDE16937219A /* [CP] Check Pods Manifest.lock */,
+				6056BDFC1E6CFC100003DE0C /* Sources */,
+				6056BDFD1E6CFC100003DE0C /* Frameworks */,
+				6056BDFE1E6CFC100003DE0C /* Resources */,
+				05B1E2C92E03B10149A015C8 /* [CP] Embed Pods Frameworks */,
+				57D558FE552DFDED8FF93C58 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchIDDemo;
+			productName = TouchIDDemo;
+			productReference = 6056BE001E6CFC100003DE0C /* TouchIDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6056BDF81E6CFC100003DE0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Vancef;
+				TargetAttributes = {
+					6056BDFF1E6CFC100003DE0C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VE9Q75P956;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6056BDFB1E6CFC100003DE0C /* Build configuration list for PBXProject "TouchIDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6056BDF71E6CFC100003DE0C;
+			productRefGroup = 6056BE011E6CFC100003DE0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6056BDFF1E6CFC100003DE0C /* TouchIDDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6056BDFE1E6CFC100003DE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6056BE131E6CFC100003DE0C /* LaunchScreen.storyboard in Resources */,
+				6056BE101E6CFC100003DE0C /* Assets.xcassets in Resources */,
+				6056BE0E1E6CFC100003DE0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B1E2C92E03B10149A015C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouchIDDemo/Pods-TouchIDDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41B9C964EF56BDE16937219A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57D558FE552DFDED8FF93C58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouchIDDemo/Pods-TouchIDDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6056BDFC1E6CFC100003DE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6056BE0B1E6CFC100003DE0C /* ViewController.m in Sources */,
+				6056BE081E6CFC100003DE0C /* AppDelegate.m in Sources */,
+				6056BE1C1E6CFC360003DE0C /* TouchIDManager.m in Sources */,
+				6056BE051E6CFC100003DE0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6056BE0C1E6CFC100003DE0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6056BE0D1E6CFC100003DE0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6056BE111E6CFC100003DE0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6056BE121E6CFC100003DE0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6056BE151E6CFC100003DE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6056BE161E6CFC100003DE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6056BE181E6CFC100003DE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AEA5398F6142A27BC2FBA9B /* Pods-TouchIDDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VE9Q75P956;
+				INFOPLIST_FILE = TouchIDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vancef.TouchIDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6056BE191E6CFC100003DE0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 006AAE479FEFF89ACD4F1778 /* Pods-TouchIDDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VE9Q75P956;
+				INFOPLIST_FILE = TouchIDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vancef.TouchIDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6056BDFB1E6CFC100003DE0C /* Build configuration list for PBXProject "TouchIDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6056BE151E6CFC100003DE0C /* Debug */,
+				6056BE161E6CFC100003DE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6056BE171E6CFC100003DE0C /* Build configuration list for PBXNativeTarget "TouchIDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6056BE181E6CFC100003DE0C /* Debug */,
+				6056BE191E6CFC100003DE0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6056BDF81E6CFC100003DE0C /* Project object */;
+}

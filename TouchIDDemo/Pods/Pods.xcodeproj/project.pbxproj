@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FE37D355C75DCB181193AA5D5096B1C /* UIViewController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A18257BC3BC30621414DB48B7E7B83 /* UIViewController+PPTopMostController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14DD78062E33839871A3CFA30EAEF0F8 /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD79B2F1216DD574236C4C95E3FC13 /* HexColors-dummy.m */; };
+		24431A9897655690E851D2E7EFFA501D /* UINavigationController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD246E65513C019B50BEB7C43B1D2120 /* UINavigationController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25EEA4793A6060FB20415DD48CAC4123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		26F7B8A743B3449733236FDB9BFE8863 /* RMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E77C707DCB53A545A7F8C5423140D280 /* RMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2827D5EB9F5A887BB76ADCE0F0082EEC /* RMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91A2435077860E65F1358B67D54147 /* RMessageView.m */; };
+		3118E637A3C2CEFC4CA943D6C4E1746E /* PPTopMostControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C09FD631147B5FEAAB84BFEC1F659B00 /* PPTopMostControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C15E9FEE3A7C5D621CCE7DB55B0DA53 /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = F79FFBC9E644CB04ACACEF59F67712FB /* HexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		736BBC5C06505DB5796B80D736E70B78 /* Pods-TouchIDDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23F61F53D0ECB8DA8DD572AE1DD411 /* Pods-TouchIDDemo-dummy.m */; };
+		7F964D54A9C45FA58F9F30233B632794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9234B4676D867735069A82463499A8FD /* UITabBarController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B5FFB839CF622C0431690B79BE25BF /* UITabBarController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9B98BE9EE06BAC5D1F7F6B08B3ACBC78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A4950E142AD29C6F3F5E021256208496 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D7DCAE9D73477DEDFC6E4FFEA30750 /* HexColors.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A73090656CB619B09DEF6024CBDEA2BD /* UIViewController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 592D2C3150B5190FD4C8DD9E4FCAE61F /* UIViewController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8143E3D908485BE124CE42C3DBE2B67 /* UINavigationController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF902D231BE8C4C3E40237A5C42DD67F /* UINavigationController+PPTopMostController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1D9B77E40EB370BA51994A6C3B2AF1 /* RMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = C2965D1BD9D002009F4B16736B4BEBCA /* RMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C00B5893CFE0A0C76171906826321428 /* RMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F36044ED6055B5C9B1377C86EB6D5E /* RMessage.m */; };
+		C35C2FAC3196AF331947554A5B46AD0B /* UITabBarController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7247A5C98E2C05C708F3F0620B276A32 /* UITabBarController+PPTopMostController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3E4887A4435D6231C7747C1A12385D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E5A331A406A3E01FEF69C45CA63EAF85 /* PPTopMostController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C511F54C65E28B6F196A6267E9C324 /* PPTopMostController-dummy.m */; };
+		FC5D7094FDC9E859463A107CCF6368BD /* RMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D742D807D815D32FAA89A68393200B5 /* RMessage-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		067B6D7A92303CBEB31CC540FEE3C934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7BAA2B0109B633CE06A36E872A9505;
+			remoteInfo = HexColors;
+		};
+		3E126F31FF72B46F0B8D67DEB6BE40C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B71FA3A2AA7E97901DE75DD1897C33F;
+			remoteInfo = RMessage;
+		};
+		4E561E2C86EFB8C7C3EE87E51D161A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7BAA2B0109B633CE06A36E872A9505;
+			remoteInfo = HexColors;
+		};
+		C67566D114B28468ED7F0933FE93E803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A7AC71C74B75A5678608F5C76790BC8;
+			remoteInfo = PPTopMostController;
+		};
+		D7043DD81A8F588ADDC913D3B88A063B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A7AC71C74B75A5678608F5C76790BC8;
+			remoteInfo = PPTopMostController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D60E8C62BE6D50D941F8E525B9BFF0 /* Pods-TouchIDDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchIDDemo-resources.sh"; sourceTree = "<group>"; };
+		08C511F54C65E28B6F196A6267E9C324 /* PPTopMostController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPTopMostController-dummy.m"; sourceTree = "<group>"; };
+		0A4C219557D3EB2C97392F9A487F71B2 /* NotificationBackgroundSuccessIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "NotificationBackgroundSuccessIcon@2x.png"; path = "RMessage/Assets/NotificationBackgroundSuccessIcon@2x.png"; sourceTree = "<group>"; };
+		0C0C9EF471CD6D6EE2C1BDFBA4FB6E3E /* libPPTopMostController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPPTopMostController.a; path = libPPTopMostController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D742D807D815D32FAA89A68393200B5 /* RMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMessage-dummy.m"; sourceTree = "<group>"; };
+		15D0934CA62F4553389A16605567ED94 /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
+		1B9D6D0FF0CA3DBAC41F9DDB360AA0EF /* NotificationButtonBackground.png */ = {isa = PBXFileReference; includeInIndex = 1; name = NotificationButtonBackground.png; path = RMessage/Assets/NotificationButtonBackground.png; sourceTree = "<group>"; };
+		1BD4DBF2420D42C0E47D1BB776D36A67 /* PPTopMostController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTopMostController-prefix.pch"; sourceTree = "<group>"; };
+		22368FDAF719EA5E079946287E21B736 /* Pods-TouchIDDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchIDDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		2AE0FF14B2D33C489F922B06F03FA790 /* libPods-TouchIDDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TouchIDDemo.a"; path = "libPods-TouchIDDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B23F61F53D0ECB8DA8DD572AE1DD411 /* Pods-TouchIDDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchIDDemo-dummy.m"; sourceTree = "<group>"; };
+		2F2F2582003FE2F0234AB2BE39353420 /* Pods-TouchIDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchIDDemo.release.xcconfig"; sourceTree = "<group>"; };
+		304729F92306EE328D2820D4DA96C785 /* PPTopMostController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPTopMostController.xcconfig; sourceTree = "<group>"; };
+		31678D7894815CC88914B2366DA1E1DC /* Pods-TouchIDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchIDDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3FC2E28023DD33745FC92DF1FDF8701B /* NotificationBackgroundErrorIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; name = NotificationBackgroundErrorIcon.png; path = RMessage/Assets/NotificationBackgroundErrorIcon.png; sourceTree = "<group>"; };
+		45A18257BC3BC30621414DB48B7E7B83 /* UIViewController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PPTopMostController.h"; path = "PPTopMostController-Files/UIViewController+PPTopMostController.h"; sourceTree = "<group>"; };
+		491D939928D207E534AF5ECD03D652AC /* NotificationBackgroundWarningIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; name = NotificationBackgroundWarningIcon.png; path = RMessage/Assets/NotificationBackgroundWarningIcon.png; sourceTree = "<group>"; };
+		4ACD79B2F1216DD574236C4C95E3FC13 /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
+		4D91A2435077860E65F1358B67D54147 /* RMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessageView.m; path = RMessage/RMessageView.m; sourceTree = "<group>"; };
+		592D2C3150B5190FD4C8DD9E4FCAE61F /* UIViewController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PPTopMostController.m"; path = "PPTopMostController-Files/UIViewController+PPTopMostController.m"; sourceTree = "<group>"; };
+		60D7DCAE9D73477DEDFC6E4FFEA30750 /* HexColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HexColors.m; path = Classes/HexColors.m; sourceTree = "<group>"; };
+		644424F896D7F7BC450CE750FCE7C7B9 /* RMessage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMessage-prefix.pch"; sourceTree = "<group>"; };
+		66B5FFB839CF622C0431690B79BE25BF /* UITabBarController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+PPTopMostController.m"; path = "PPTopMostController-Files/UITabBarController+PPTopMostController.m"; sourceTree = "<group>"; };
+		677E94903F8DB3BBF1D80CCE85A29CD9 /* libRMessage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRMessage.a; path = libRMessage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEF14288D57D749DE877C1B8A1BD82B /* Pods-TouchIDDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchIDDemo-frameworks.sh"; sourceTree = "<group>"; };
+		7247A5C98E2C05C708F3F0620B276A32 /* UITabBarController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+PPTopMostController.h"; path = "PPTopMostController-Files/UITabBarController+PPTopMostController.h"; sourceTree = "<group>"; };
+		81222EB280DDC4F11E57904739AFCE13 /* RMessageDefaultDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; name = RMessageDefaultDesign.json; path = RMessage/Assets/RMessageDefaultDesign.json; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAB659DC9E0C962B5324AE6E24B66B40 /* NotificationBackgroundErrorIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "NotificationBackgroundErrorIcon@2x.png"; path = "RMessage/Assets/NotificationBackgroundErrorIcon@2x.png"; sourceTree = "<group>"; };
+		AB2784CF4EEE7733401ECED49E3B7884 /* NotificationBackgroundSuccessIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; name = NotificationBackgroundSuccessIcon.png; path = RMessage/Assets/NotificationBackgroundSuccessIcon.png; sourceTree = "<group>"; };
+		AD246E65513C019B50BEB7C43B1D2120 /* UINavigationController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+PPTopMostController.m"; path = "PPTopMostController-Files/UINavigationController+PPTopMostController.m"; sourceTree = "<group>"; };
+		B210671FD3C59334D7A26EA0D1BA91A6 /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
+		C01690D62CDC86C8BC19470830CA350D /* libHexColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHexColors.a; path = libHexColors.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09FD631147B5FEAAB84BFEC1F659B00 /* PPTopMostControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPTopMostControllerProtocol.h; path = "PPTopMostController-Files/PPTopMostControllerProtocol.h"; sourceTree = "<group>"; };
+		C2965D1BD9D002009F4B16736B4BEBCA /* RMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessage.h; path = RMessage/RMessage.h; sourceTree = "<group>"; };
+		C9F36044ED6055B5C9B1377C86EB6D5E /* RMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessage.m; path = RMessage/RMessage.m; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFF59876F3015E80905E67E27FB31F85 /* NotificationBackgroundWarningIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "NotificationBackgroundWarningIcon@2x.png"; path = "RMessage/Assets/NotificationBackgroundWarningIcon@2x.png"; sourceTree = "<group>"; };
+		D3851AB39B4E0EF390F2C91095704490 /* RMessage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMessage.xcconfig; sourceTree = "<group>"; };
+		D441EBE9E21C7F9AF6FF49B4B4F19537 /* RMessageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RMessageView.xib; path = RMessage/Resources/RMessageView.xib; sourceTree = "<group>"; };
+		DF902D231BE8C4C3E40237A5C42DD67F /* UINavigationController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+PPTopMostController.h"; path = "PPTopMostController-Files/UINavigationController+PPTopMostController.h"; sourceTree = "<group>"; };
+		E77C707DCB53A545A7F8C5423140D280 /* RMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessageView.h; path = RMessage/RMessageView.h; sourceTree = "<group>"; };
+		F37E62D9ACDC59141D47E2AC93F06C76 /* Pods-TouchIDDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchIDDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F68A77AAAD1208C8823ADF1E7FFAFA29 /* NotificationButtonBackground@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "NotificationButtonBackground@2x.png"; path = "RMessage/Assets/NotificationButtonBackground@2x.png"; sourceTree = "<group>"; };
+		F79FFBC9E644CB04ACACEF59F67712FB /* HexColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HexColors.h; path = Classes/HexColors.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F45FD804D336CC90E6F5B7EB2369D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B98BE9EE06BAC5D1F7F6B08B3ACBC78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EF02FB1E855B9CA3344F36F5645BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EEA4793A6060FB20415DD48CAC4123 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4651947685A2A84586C38B6D5039DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E4887A4435D6231C7747C1A12385D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D140875614EC92208B7136436D060CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F964D54A9C45FA58F9F30233B632794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF74E407FE0A4734D7DCEAC14CF4A31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3851AB39B4E0EF390F2C91095704490 /* RMessage.xcconfig */,
+				0D742D807D815D32FAA89A68393200B5 /* RMessage-dummy.m */,
+				644424F896D7F7BC450CE750FCE7C7B9 /* RMessage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMessage";
+			sourceTree = "<group>";
+		};
+		1429EC88131F639F8430E7A33CF15C7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15D0934CA62F4553389A16605567ED94 /* HexColors.xcconfig */,
+				4ACD79B2F1216DD574236C4C95E3FC13 /* HexColors-dummy.m */,
+				B210671FD3C59334D7A26EA0D1BA91A6 /* HexColors-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HexColors";
+			sourceTree = "<group>";
+		};
+		4A016890E5DFCC7810047BFFE339FD28 /* Pods-TouchIDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F37E62D9ACDC59141D47E2AC93F06C76 /* Pods-TouchIDDemo-acknowledgements.markdown */,
+				22368FDAF719EA5E079946287E21B736 /* Pods-TouchIDDemo-acknowledgements.plist */,
+				2B23F61F53D0ECB8DA8DD572AE1DD411 /* Pods-TouchIDDemo-dummy.m */,
+				6FEF14288D57D749DE877C1B8A1BD82B /* Pods-TouchIDDemo-frameworks.sh */,
+				06D60E8C62BE6D50D941F8E525B9BFF0 /* Pods-TouchIDDemo-resources.sh */,
+				31678D7894815CC88914B2366DA1E1DC /* Pods-TouchIDDemo.debug.xcconfig */,
+				2F2F2582003FE2F0234AB2BE39353420 /* Pods-TouchIDDemo.release.xcconfig */,
+			);
+			name = "Pods-TouchIDDemo";
+			path = "Target Support Files/Pods-TouchIDDemo";
+			sourceTree = "<group>";
+		};
+		553CB51CE59ACDFA7212A57D8817C67E /* RMessage */ = {
+			isa = PBXGroup;
+			children = (
+				C2965D1BD9D002009F4B16736B4BEBCA /* RMessage.h */,
+				C9F36044ED6055B5C9B1377C86EB6D5E /* RMessage.m */,
+				E77C707DCB53A545A7F8C5423140D280 /* RMessageView.h */,
+				4D91A2435077860E65F1358B67D54147 /* RMessageView.m */,
+				F821D28C213EDB9F85C0667573B3C4C8 /* Resources */,
+				0FF74E407FE0A4734D7DCEAC14CF4A31 /* Support Files */,
+			);
+			name = RMessage;
+			path = RMessage;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				91AA88AAD5715ADA563E3523FC138B03 /* Pods */,
+				B8CE02EBA7F6C27F81034AA3EB161C73 /* Products */,
+				90D114D0CD69450CEF23FDF71DA57360 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90D114D0CD69450CEF23FDF71DA57360 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A016890E5DFCC7810047BFFE339FD28 /* Pods-TouchIDDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		91AA88AAD5715ADA563E3523FC138B03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF74ADFC16279F319ED1F087E280DFF5 /* HexColors */,
+				D020DC18D601A7E17D7575EFA351CD8F /* PPTopMostController */,
+				553CB51CE59ACDFA7212A57D8817C67E /* RMessage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9564E13454CF9BC5DB5313204C0DA75C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				304729F92306EE328D2820D4DA96C785 /* PPTopMostController.xcconfig */,
+				08C511F54C65E28B6F196A6267E9C324 /* PPTopMostController-dummy.m */,
+				1BD4DBF2420D42C0E47D1BB776D36A67 /* PPTopMostController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PPTopMostController";
+			sourceTree = "<group>";
+		};
+		B8CE02EBA7F6C27F81034AA3EB161C73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01690D62CDC86C8BC19470830CA350D /* libHexColors.a */,
+				2AE0FF14B2D33C489F922B06F03FA790 /* libPods-TouchIDDemo.a */,
+				0C0C9EF471CD6D6EE2C1BDFBA4FB6E3E /* libPPTopMostController.a */,
+				677E94903F8DB3BBF1D80CCE85A29CD9 /* libRMessage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF74ADFC16279F319ED1F087E280DFF5 /* HexColors */ = {
+			isa = PBXGroup;
+			children = (
+				F79FFBC9E644CB04ACACEF59F67712FB /* HexColors.h */,
+				60D7DCAE9D73477DEDFC6E4FFEA30750 /* HexColors.m */,
+				1429EC88131F639F8430E7A33CF15C7D /* Support Files */,
+			);
+			name = HexColors;
+			path = HexColors;
+			sourceTree = "<group>";
+		};
+		D020DC18D601A7E17D7575EFA351CD8F /* PPTopMostController */ = {
+			isa = PBXGroup;
+			children = (
+				C09FD631147B5FEAAB84BFEC1F659B00 /* PPTopMostControllerProtocol.h */,
+				DF902D231BE8C4C3E40237A5C42DD67F /* UINavigationController+PPTopMostController.h */,
+				AD246E65513C019B50BEB7C43B1D2120 /* UINavigationController+PPTopMostController.m */,
+				7247A5C98E2C05C708F3F0620B276A32 /* UITabBarController+PPTopMostController.h */,
+				66B5FFB839CF622C0431690B79BE25BF /* UITabBarController+PPTopMostController.m */,
+				45A18257BC3BC30621414DB48B7E7B83 /* UIViewController+PPTopMostController.h */,
+				592D2C3150B5190FD4C8DD9E4FCAE61F /* UIViewController+PPTopMostController.m */,
+				9564E13454CF9BC5DB5313204C0DA75C /* Support Files */,
+			);
+			name = PPTopMostController;
+			path = PPTopMostController;
+			sourceTree = "<group>";
+		};
+		F821D28C213EDB9F85C0667573B3C4C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2E28023DD33745FC92DF1FDF8701B /* NotificationBackgroundErrorIcon.png */,
+				AAB659DC9E0C962B5324AE6E24B66B40 /* NotificationBackgroundErrorIcon@2x.png */,
+				AB2784CF4EEE7733401ECED49E3B7884 /* NotificationBackgroundSuccessIcon.png */,
+				0A4C219557D3EB2C97392F9A487F71B2 /* NotificationBackgroundSuccessIcon@2x.png */,
+				491D939928D207E534AF5ECD03D652AC /* NotificationBackgroundWarningIcon.png */,
+				CFF59876F3015E80905E67E27FB31F85 /* NotificationBackgroundWarningIcon@2x.png */,
+				1B9D6D0FF0CA3DBAC41F9DDB360AA0EF /* NotificationButtonBackground.png */,
+				F68A77AAAD1208C8823ADF1E7FFAFA29 /* NotificationButtonBackground@2x.png */,
+				81222EB280DDC4F11E57904739AFCE13 /* RMessageDefaultDesign.json */,
+				D441EBE9E21C7F9AF6FF49B4B4F19537 /* RMessageView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72CFDFF3EEB85B7F1D20435CF5EE6CAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118E637A3C2CEFC4CA943D6C4E1746E /* PPTopMostControllerProtocol.h in Headers */,
+				A8143E3D908485BE124CE42C3DBE2B67 /* UINavigationController+PPTopMostController.h in Headers */,
+				C35C2FAC3196AF331947554A5B46AD0B /* UITabBarController+PPTopMostController.h in Headers */,
+				0FE37D355C75DCB181193AA5D5096B1C /* UIViewController+PPTopMostController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1AADAFCA49508E493592156F55BBBB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1D9B77E40EB370BA51994A6C3B2AF1 /* RMessage.h in Headers */,
+				26F7B8A743B3449733236FDB9BFE8863 /* RMessageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B614DA345A86993AB81695ABCAC62CE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C15E9FEE3A7C5D621CCE7DB55B0DA53 /* HexColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B44967A82E7D9EBED3FC26349A1A905 /* Pods-TouchIDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9960EF266A143B755256BF269F0EA0B3 /* Build configuration list for PBXNativeTarget "Pods-TouchIDDemo" */;
+			buildPhases = (
+				6FF261C5E55C211A76800C20BD000309 /* Sources */,
+				CF4651947685A2A84586C38B6D5039DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796C2E3F247D0F2C61575D21E32CE1FD /* PBXTargetDependency */,
+				C3E0E55D6A5711075B902E86A8CF548B /* PBXTargetDependency */,
+				E4381612BD62F107B4FF5CE602A29189 /* PBXTargetDependency */,
+			);
+			name = "Pods-TouchIDDemo";
+			productName = "Pods-TouchIDDemo";
+			productReference = 2AE0FF14B2D33C489F922B06F03FA790 /* libPods-TouchIDDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1B71FA3A2AA7E97901DE75DD1897C33F /* RMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00BC857686AABDCCA324DF4E92EF2960 /* Build configuration list for PBXNativeTarget "RMessage" */;
+			buildPhases = (
+				529C093C83A8658DB73C9D94E5A05F76 /* Sources */,
+				D140875614EC92208B7136436D060CFD /* Frameworks */,
+				A1AADAFCA49508E493592156F55BBBB8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796F5CE3E36ADAE136D11D1C99518938 /* PBXTargetDependency */,
+				A0F2D80EA5306C8E43F167CAD05924C5 /* PBXTargetDependency */,
+			);
+			name = RMessage;
+			productName = RMessage;
+			productReference = 677E94903F8DB3BBF1D80CCE85A29CD9 /* libRMessage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A7AC71C74B75A5678608F5C76790BC8 /* PPTopMostController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386E444C05CA0AA63976876A05151E1B /* Build configuration list for PBXNativeTarget "PPTopMostController" */;
+			buildPhases = (
+				B14B9E3C00B885FA7FC94FDE3CFD0020 /* Sources */,
+				60EF02FB1E855B9CA3344F36F5645BD5 /* Frameworks */,
+				72CFDFF3EEB85B7F1D20435CF5EE6CAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPTopMostController;
+			productName = PPTopMostController;
+			productReference = 0C0C9EF471CD6D6EE2C1BDFBA4FB6E3E /* libPPTopMostController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC7BAA2B0109B633CE06A36E872A9505 /* HexColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7728CE8385DA0D792A4B410991DA2C /* Build configuration list for PBXNativeTarget "HexColors" */;
+			buildPhases = (
+				E8EFD4C0C40128513B4BF22F928B8067 /* Sources */,
+				2F45FD804D336CC90E6F5B7EB2369D0E /* Frameworks */,
+				B614DA345A86993AB81695ABCAC62CE3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexColors;
+			productName = HexColors;
+			productReference = C01690D62CDC86C8BC19470830CA350D /* libHexColors.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B8CE02EBA7F6C27F81034AA3EB161C73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7BAA2B0109B633CE06A36E872A9505 /* HexColors */,
+				1B44967A82E7D9EBED3FC26349A1A905 /* Pods-TouchIDDemo */,
+				7A7AC71C74B75A5678608F5C76790BC8 /* PPTopMostController */,
+				1B71FA3A2AA7E97901DE75DD1897C33F /* RMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529C093C83A8658DB73C9D94E5A05F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5D7094FDC9E859463A107CCF6368BD /* RMessage-dummy.m in Sources */,
+				C00B5893CFE0A0C76171906826321428 /* RMessage.m in Sources */,
+				2827D5EB9F5A887BB76ADCE0F0082EEC /* RMessageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF261C5E55C211A76800C20BD000309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736BBC5C06505DB5796B80D736E70B78 /* Pods-TouchIDDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B14B9E3C00B885FA7FC94FDE3CFD0020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A331A406A3E01FEF69C45CA63EAF85 /* PPTopMostController-dummy.m in Sources */,
+				24431A9897655690E851D2E7EFFA501D /* UINavigationController+PPTopMostController.m in Sources */,
+				9234B4676D867735069A82463499A8FD /* UITabBarController+PPTopMostController.m in Sources */,
+				A73090656CB619B09DEF6024CBDEA2BD /* UIViewController+PPTopMostController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EFD4C0C40128513B4BF22F928B8067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DD78062E33839871A3CFA30EAEF0F8 /* HexColors-dummy.m in Sources */,
+				A4950E142AD29C6F3F5E021256208496 /* HexColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		796C2E3F247D0F2C61575D21E32CE1FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = EC7BAA2B0109B633CE06A36E872A9505 /* HexColors */;
+			targetProxy = 4E561E2C86EFB8C7C3EE87E51D161A31 /* PBXContainerItemProxy */;
+		};
+		796F5CE3E36ADAE136D11D1C99518938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = EC7BAA2B0109B633CE06A36E872A9505 /* HexColors */;
+			targetProxy = 067B6D7A92303CBEB31CC540FEE3C934 /* PBXContainerItemProxy */;
+		};
+		A0F2D80EA5306C8E43F167CAD05924C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PPTopMostController;
+			target = 7A7AC71C74B75A5678608F5C76790BC8 /* PPTopMostController */;
+			targetProxy = C67566D114B28468ED7F0933FE93E803 /* PBXContainerItemProxy */;
+		};
+		C3E0E55D6A5711075B902E86A8CF548B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PPTopMostController;
+			target = 7A7AC71C74B75A5678608F5C76790BC8 /* PPTopMostController */;
+			targetProxy = D7043DD81A8F588ADDC913D3B88A063B /* PBXContainerItemProxy */;
+		};
+		E4381612BD62F107B4FF5CE602A29189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMessage;
+			target = 1B71FA3A2AA7E97901DE75DD1897C33F /* RMessage */;
+			targetProxy = 3E126F31FF72B46F0B8D67DEB6BE40C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F67AA0105C163DE85DA4F254269FDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2F2582003FE2F0234AB2BE39353420 /* Pods-TouchIDDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0F7F411460DC531EEDF4DA17748F1EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304729F92306EE328D2820D4DA96C785 /* PPTopMostController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PPTopMostController/PPTopMostController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		283992143C2305EE38394694C2691309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D0934CA62F4553389A16605567ED94 /* HexColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2E4B26F0811F61A81A85EF17212F414B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3851AB39B4E0EF390F2C91095704490 /* RMessage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMessage/RMessage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3D2FE631088AB369E1AA3EBEAC12E023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3851AB39B4E0EF390F2C91095704490 /* RMessage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RMessage/RMessage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40541B5AD0B4F9A6B6885256F635A74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31678D7894815CC88914B2366DA1E1DC /* Pods-TouchIDDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C83B72D1AB75294BFD1A6D0E20C723B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304729F92306EE328D2820D4DA96C785 /* PPTopMostController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PPTopMostController/PPTopMostController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EDE42538BBBFE1A4A31F5D9611DADB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D0934CA62F4553389A16605567ED94 /* HexColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00BC857686AABDCCA324DF4E92EF2960 /* Build configuration list for PBXNativeTarget "RMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2FE631088AB369E1AA3EBEAC12E023 /* Debug */,
+				2E4B26F0811F61A81A85EF17212F414B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386E444C05CA0AA63976876A05151E1B /* Build configuration list for PBXNativeTarget "PPTopMostController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7F411460DC531EEDF4DA17748F1EC1 /* Debug */,
+				5C83B72D1AB75294BFD1A6D0E20C723B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9960EF266A143B755256BF269F0EA0B3 /* Build configuration list for PBXNativeTarget "Pods-TouchIDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40541B5AD0B4F9A6B6885256F635A74A /* Debug */,
+				0F67AA0105C163DE85DA4F254269FDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7728CE8385DA0D792A4B410991DA2C /* Build configuration list for PBXNativeTarget "HexColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EDE42538BBBFE1A4A31F5D9611DADB8 /* Debug */,
+				283992143C2305EE38394694C2691309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
